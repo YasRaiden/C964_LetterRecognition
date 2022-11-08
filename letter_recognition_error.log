@@ -631,3 +631,22 @@ HAVE_FLATBUFFERS
 HAVE_OPENBLAS
 11-07-2022 -- 06:28:08 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
 11-07-2022 -- 06:28:11 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+11-08-2022 -- 02:32:24 PM [main] INFO  org.LetterRecognition.Main - Application Start
+11-08-2022 -- 02:32:24 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+11-08-2022 -- 02:32:24 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+11-08-2022 -- 02:32:24 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+11-08-2022 -- 02:32:25 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+11-08-2022 -- 02:32:25 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+11-08-2022 -- 02:32:25 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+11-08-2022 -- 02:32:25 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+11-08-2022 -- 02:32:25 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+11-08-2022 -- 02:32:25 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+11-08-2022 -- 02:32:25 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+11-08-2022 -- 02:32:25 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+11-08-2022 -- 02:32:35 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was closed!
+11-08-2022 -- 02:32:35 PM [main] INFO  org.LetterRecognition.Main - Application Stopped
