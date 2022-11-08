@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.LetterRecognition.controller.SettingsController">
+   <children>
+      <HBox layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="1250.0">
+         <children>
+            <VBox alignment="TOP_CENTER" maxHeight="600.0" prefHeight="600.0" prefWidth="150.0">
+               <children>
+                  <Button onAction="#onActionBack" prefHeight="38.0" prefWidth="178.0" text="Back">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <GridPane alignment="CENTER" gridLinesVisible="true">
+                    <columnConstraints>
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="101.0" minWidth="10.0" prefWidth="77.0" />
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="61.0" minWidth="10.0" prefWidth="53.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <VBox.margin>
+                        <Insets top="100.0" />
+                     </VBox.margin>
+                     <children>
+                        <Label text="Total" />
+                        <Label fx:id="totalCntLbl" text="##" GridPane.columnIndex="1" />
+                     </children>
+                  </GridPane>
+               </children>
+               <padding>
+                  <Insets left="20.0" top="20.0" />
+               </padding>
+            </VBox>
+            <HBox alignment="TOP_CENTER" prefHeight="600.0" prefWidth="1100.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="600.0" prefWidth="1100.0">
+                     <children>
+                        <TabPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" tabClosingPolicy="UNAVAILABLE">
+                          <tabs>
+                            <Tab text="Uppercase">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="600.0" prefWidth="1000.0">
+                                       <children>
+                                          <VBox prefHeight="600.0" prefWidth="1000.0">
+                                             <children>
+                                                <GridPane hgap="5.0" vgap="15.0">
+                                                  <columnConstraints>
+                                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="150.0" />
+                                                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                  </columnConstraints>
+                                                  <rowConstraints>
+                                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                  </rowConstraints>
+                                                   <children>
+                                                      <Label text="Letter">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="On/Off" GridPane.columnIndex="4">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="A" GridPane.rowIndex="1">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="B" GridPane.rowIndex="2">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                       <Label text="C" GridPane.rowIndex="3">
+                                                           <font>
+                                                               <Font size="18.0" />
+                                                           </font>
+                                                       </Label>
+                                                       <Label text="D" GridPane.rowIndex="4">
+                                                           <font>
+                                                               <Font size="18.0" />
+                                                           </font>
+                                                       </Label>
+                                                       <Label text="E" GridPane.rowIndex="5">
+                                                           <font>
+                                                               <Font size="18.0" />
+                                                           </font>
+                                                       </Label>
+                                                       <Label text="F" GridPane.rowIndex="6">
+                                                           <font>
+                                                               <Font size="18.0" />
+                                                           </font>
+                                                       </Label>
+                                                       <Label text="G" GridPane.rowIndex="7">
+                                                           <font>
+                                                               <Font size="18.0" />
+                                                           </font>
+                                                       </Label>
+                                                       <Label text="H" GridPane.rowIndex="8">
+                                                           <font>
+                                                               <Font size="18.0" />
+                                                           </font>
+                                                       </Label>
+                                                       <Label text="I" GridPane.rowIndex="9">
+                                                           <font>
+                                                               <Font size="18.0" />
+                                                           </font>
+                                                       </Label>
+                                                       <Label text="J" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                                                           <font>
+                                                               <Font size="18.0" />
+                                                           </font>
+                                                       </Label>
+                                                       <Label text="K" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                                                           <font>
+                                                               <Font size="18.0" />
+                                                           </font>
+                                                       </Label>
+                                                       <Label text="L" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                                                           <font>
+                                                               <Font size="18.0" />
+                                                           </font>
+                                                       </Label>
+                                                      <Label text="Letter" GridPane.columnIndex="3">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="M" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="N" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="O" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="Q" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="R" GridPane.columnIndex="3" GridPane.rowIndex="9">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="S" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="T" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="U" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="V" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="W" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="X" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="Y" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="P" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="Z" GridPane.columnIndex="6" GridPane.rowIndex="8">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="Letter" GridPane.columnIndex="6">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="On/Off" GridPane.columnIndex="7">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="On/Off" GridPane.columnIndex="1">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <ToggleButton fx:id="letter41Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                      <ToggleButton fx:id="letter42Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                      <ToggleButton fx:id="letter43Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                                      <ToggleButton fx:id="letter44Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                                      <ToggleButton fx:id="letter45Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                                      <ToggleButton fx:id="letter46Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                                      <ToggleButton fx:id="letter47Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                                                      <ToggleButton fx:id="letter48Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                                                      <ToggleButton fx:id="letter49Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                                                      <ToggleButton fx:id="letter4aTgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                                                      <ToggleButton fx:id="letter4bTgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                                                      <ToggleButton fx:id="letter4cTgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                                                      <ToggleButton fx:id="letter4dTgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                                                      <ToggleButton fx:id="letter4eTgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                                                      <ToggleButton fx:id="letter4fTgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                                                      <ToggleButton fx:id="letter50Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                                                      <ToggleButton fx:id="letter51Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+                                                      <ToggleButton fx:id="letter52Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+                                                      <ToggleButton fx:id="letter53Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+                                                      <ToggleButton fx:id="letter54Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+                                                      <ToggleButton fx:id="letter55Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+                                                      <ToggleButton fx:id="letter56Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+                                                      <ToggleButton fx:id="letter57Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+                                                      <ToggleButton fx:id="letter58Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+                                                      <ToggleButton fx:id="letter59Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+                                                      <ToggleButton fx:id="letter5aTgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+
+                                                   </children>
+                                                </GridPane>
+                                                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="75.0">
+                                                   <children>
+                                                      <Button onAction="#onActionAllOnUpperCase" prefHeight="38.0" prefWidth="178.0" text="All On">
+                                                         <font>
+                                                            <Font size="24.0" />
+                                                         </font>
+                                                      </Button>
+                                                      <Button onAction="#onActionAllOffUpperCase" prefHeight="38.0" prefWidth="178.0" text="All Off">
+                                                         <font>
+                                                            <Font size="24.0" />
+                                                         </font>
+                                                      </Button>
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </Tab>
+                              <Tab text="Lowercase">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="600.0" prefWidth="1000.0">
+                                       <children>
+                                          <VBox prefHeight="600.0" prefWidth="1000.0">
+                                             <children>
+                                                <GridPane hgap="5.0" vgap="15.0">
+                                                   <columnConstraints>
+                                                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="150.0" />
+                                                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                   </columnConstraints>
+                                                   <rowConstraints>
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                   </rowConstraints>
+                                                   <children>
+                                                      <Label text="Letter">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="On/Off" GridPane.columnIndex="1">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="On/Off" GridPane.columnIndex="4">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="a" GridPane.rowIndex="1">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="b" GridPane.rowIndex="2">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="c" GridPane.rowIndex="3">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="d" GridPane.rowIndex="4">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="e" GridPane.rowIndex="5">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="f" GridPane.rowIndex="6">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="g" GridPane.rowIndex="7">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="h" GridPane.rowIndex="8">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="i" GridPane.rowIndex="9">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="j" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="k" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="l" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="Letter" GridPane.columnIndex="3">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="m" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="n" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="o" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="q" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="r" GridPane.columnIndex="3" GridPane.rowIndex="9">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="s" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="t" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="u" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="v" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="w" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="x" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="y" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="p" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="z" GridPane.columnIndex="6" GridPane.rowIndex="8">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="Letter" GridPane.columnIndex="6">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label text="On/Off" GridPane.columnIndex="7">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <ToggleButton fx:id="letter61Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                      <ToggleButton fx:id="letter62Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                      <ToggleButton fx:id="letter63Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                                      <ToggleButton fx:id="letter64Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                                      <ToggleButton fx:id="letter65Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                                      <ToggleButton fx:id="letter66Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                                      <ToggleButton fx:id="letter67Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                                                      <ToggleButton fx:id="letter68Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                                                      <ToggleButton fx:id="letter69Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                                                      <ToggleButton fx:id="letter6aTgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                                                      <ToggleButton fx:id="letter6bTgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                                                      <ToggleButton fx:id="letter6cTgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                                                      <ToggleButton fx:id="letter6dTgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                                                      <ToggleButton fx:id="letter6eTgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                                                      <ToggleButton fx:id="letter6fTgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                                                      <ToggleButton fx:id="letter70Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                                                      <ToggleButton fx:id="letter71Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+                                                      <ToggleButton fx:id="letter72Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+                                                      <ToggleButton fx:id="letter73Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+                                                      <ToggleButton fx:id="letter74Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+                                                      <ToggleButton fx:id="letter75Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+                                                      <ToggleButton fx:id="letter76Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+                                                      <ToggleButton fx:id="letter77Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+                                                      <ToggleButton fx:id="letter78Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+                                                      <ToggleButton fx:id="letter79Tgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+                                                      <ToggleButton fx:id="letter7aTgl" mnemonicParsing="false" onAction="#onActionLetterTgl" prefWidth="70.0" selected="true" text="On" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+                                                   </children>
+                                                </GridPane>
+                                                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="75.0">
+                                                   <children>
+                                                      <Button onAction="#onActionAllOnLowerCase" prefHeight="38.0" prefWidth="178.0" text="All On">
+                                                         <font>
+                                                            <Font size="24.0" />
+                                                         </font>
+                                                      </Button>
+                                                      <Button onAction="#onActionAllOffLowerCase" prefHeight="38.0" prefWidth="178.0" text="All Off">
+                                                         <font>
+                                                            <Font size="24.0" />
+                                                         </font>
+                                                      </Button>
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </Tab>
+                          </tabs>
+                        </TabPane>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

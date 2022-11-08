@@ -1,0 +1,633 @@
+09-27-2022 -- 05:53:36 PM [main] INFO  org.LetterRecognition.Main - Application Start
+09-27-2022 -- 05:53:37 PM [main] INFO  DAO.Database - Connection to database was successful!
+09-27-2022 -- 05:53:37 PM [main] INFO  model.NeuralNetwork - ###### LOAD MODEL
+09-27-2022 -- 05:53:37 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+09-27-2022 -- 05:53:38 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+09-27-2022 -- 05:53:38 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+09-27-2022 -- 05:53:38 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+09-27-2022 -- 05:53:38 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+09-27-2022 -- 05:53:38 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+09-27-2022 -- 05:53:38 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+09-27-2022 -- 05:53:38 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+09-27-2022 -- 05:53:38 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+09-27-2022 -- 05:53:49 PM [JavaFX Application Thread] INFO  controller.MainMenuController - Application stopped and resources were release via system exit.
+09-27-2022 -- 05:53:53 PM [main] INFO  org.LetterRecognition.Main - Application Start
+09-27-2022 -- 05:53:53 PM [main] INFO  DAO.Database - Connection to database was successful!
+09-27-2022 -- 05:53:53 PM [main] INFO  model.NeuralNetwork - ###### LOAD MODEL
+09-27-2022 -- 05:53:53 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+09-27-2022 -- 05:53:54 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+09-27-2022 -- 05:53:54 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+09-27-2022 -- 05:53:54 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+09-27-2022 -- 05:53:54 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+09-27-2022 -- 05:53:54 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+09-27-2022 -- 05:53:54 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+09-27-2022 -- 05:53:54 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+09-27-2022 -- 05:53:54 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+09-27-2022 -- 05:53:58 PM [JavaFX Application Thread] INFO  controller.MainMenuController - Application stopped and resources were release via system exit.
+09-27-2022 -- 06:28:02 PM [main] INFO  org.LetterRecognition.Main - Application Start
+09-27-2022 -- 06:28:03 PM [main] INFO  DAO.Database - Connection to database was successful!
+09-27-2022 -- 06:28:03 PM [main] INFO  model.NeuralNetwork - ###### LOAD MODEL
+09-27-2022 -- 06:28:03 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+09-27-2022 -- 06:28:04 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+09-27-2022 -- 06:28:04 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+09-27-2022 -- 06:28:04 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+09-27-2022 -- 06:28:04 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+09-27-2022 -- 06:28:04 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+09-27-2022 -- 06:28:04 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+09-27-2022 -- 06:28:04 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+09-27-2022 -- 06:28:04 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+09-27-2022 -- 06:28:07 PM [JavaFX Application Thread] INFO  controller.MainMenuController - Application stopped and resources were release via system exit.
+10-01-2022 -- 06:11:31 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 06:11:32 PM [main] INFO  DAO.Database - Connection to database was successful!
+10-01-2022 -- 06:11:32 PM [main] INFO  model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 06:11:32 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 06:11:32 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 06:11:32 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 06:11:33 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 06:11:33 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 06:11:33 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 06:11:33 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 06:11:33 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 06:11:33 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 06:12:16 PM [JavaFX Application Thread] INFO  controller.MainMenuController - Application stopped and resources were release via system exit.
+10-01-2022 -- 06:17:11 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 06:17:11 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 06:17:11 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 06:17:11 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 06:17:13 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 06:17:13 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 06:17:13 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 06:17:13 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 06:17:13 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 06:17:13 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 06:17:13 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 06:17:13 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 06:17:15 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+10-01-2022 -- 06:46:16 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 06:46:17 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 06:46:17 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 06:46:17 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 06:46:17 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 06:46:17 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 06:46:17 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 06:46:17 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 06:46:17 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 06:46:17 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 06:46:17 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 06:46:17 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 06:46:25 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was closed!
+10-01-2022 -- 06:46:25 PM [main] INFO  org.LetterRecognition.Main - Application Stopped
+10-01-2022 -- 07:00:20 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 07:00:20 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 07:00:20 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 07:00:20 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 07:00:21 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 07:00:21 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 07:00:21 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 07:00:21 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 07:00:21 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 07:00:21 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 07:00:21 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 07:00:21 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 07:00:58 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 07:00:58 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 07:00:58 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 07:00:58 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 07:00:59 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 07:00:59 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 07:00:59 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 07:00:59 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 07:00:59 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 07:00:59 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 07:00:59 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 07:00:59 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 07:01:02 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+10-01-2022 -- 07:16:16 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 07:16:17 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 07:16:17 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 07:16:17 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 07:16:17 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 07:16:17 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 07:16:17 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 07:16:17 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 07:16:17 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 07:16:17 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 07:16:17 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 07:16:18 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 07:17:05 PM [JavaFX Application Thread] INFO  o.L.model.NeuralNetwork - ###### TRAIN MODEL
+10-01-2022 -- 07:17:10 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was closed!
+10-01-2022 -- 07:17:10 PM [main] INFO  org.LetterRecognition.Main - Application Stopped
+10-01-2022 -- 07:18:07 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 07:18:07 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 07:18:07 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 07:18:07 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 07:18:08 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 07:18:08 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 07:18:08 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 07:18:08 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 07:18:08 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 07:18:08 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 07:18:08 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 07:18:08 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 07:18:23 PM [JavaFX Application Thread] INFO  o.L.model.NeuralNetwork - ###### TRAIN MODEL
+10-01-2022 -- 07:18:36 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+10-01-2022 -- 07:24:59 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 07:24:59 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 07:24:59 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 07:25:00 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 07:25:00 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 07:25:00 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 07:25:00 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 07:25:00 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 07:25:00 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 07:25:00 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 07:25:00 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 07:25:01 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 07:25:03 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was closed!
+10-01-2022 -- 07:25:03 PM [main] INFO  org.LetterRecognition.Main - Application Stopped
+10-01-2022 -- 07:25:10 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 07:25:11 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 07:25:11 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 07:25:11 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 07:25:12 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 07:25:12 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 07:25:12 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 07:25:12 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 07:25:12 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 07:25:12 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 07:25:12 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 07:25:12 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 07:25:14 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+10-01-2022 -- 07:25:22 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 07:25:22 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 07:25:22 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 07:25:23 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 07:25:23 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 07:25:23 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 07:25:23 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 07:25:23 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 07:25:23 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 07:25:23 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 07:25:23 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 07:25:24 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 07:25:26 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was closed!
+10-01-2022 -- 07:25:26 PM [main] INFO  org.LetterRecognition.Main - Application Stopped
+10-01-2022 -- 09:38:13 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 09:38:13 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 09:38:13 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 09:38:13 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 09:38:16 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 09:38:16 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 09:38:16 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 09:38:16 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 09:38:16 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 09:38:16 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 09:38:16 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 09:38:17 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 09:38:20 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+10-01-2022 -- 09:38:23 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 09:38:23 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 09:38:23 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 09:38:23 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 09:38:23 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 09:38:23 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 09:38:23 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 09:38:23 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 09:38:23 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 09:38:23 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 09:38:23 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 09:38:24 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 09:39:00 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+10-01-2022 -- 10:08:41 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 10:08:42 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 10:08:42 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 10:08:42 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 10:13:36 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 10:13:36 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 10:13:36 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 10:13:36 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 10:13:37 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 10:13:37 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 10:13:37 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 10:13:37 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 10:13:37 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 10:13:37 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 10:13:37 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 10:13:38 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 10:14:00 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was closed!
+10-01-2022 -- 10:14:00 PM [main] INFO  org.LetterRecognition.Main - Application Stopped
+10-01-2022 -- 10:33:36 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 10:33:36 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 10:33:36 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 10:33:36 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 10:33:37 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 10:33:37 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 10:33:37 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 10:33:37 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 10:33:37 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 10:33:37 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 10:33:37 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 10:33:37 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 10:33:43 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+10-01-2022 -- 10:34:04 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 10:34:04 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 10:34:04 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 10:34:04 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 10:34:05 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 10:34:05 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 10:34:05 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 10:34:05 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 10:34:05 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 10:34:05 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 10:34:05 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 10:34:05 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 10:34:08 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+10-01-2022 -- 10:36:53 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 10:36:53 PM [main] ERROR org.LetterRecognition.DAO.Database - error:Access denied for user 'c964'@'localhost' (using password: YES)
+10-01-2022 -- 10:36:53 PM [main] ERROR org.LetterRecognition.DAO.Database - Connection to database is closed!!! Default settings will be used. Setting will not be able to save.
+10-01-2022 -- 10:36:53 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 10:36:53 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 10:36:53 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 10:36:53 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 10:36:53 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 10:36:54 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 10:36:54 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 10:36:54 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 10:36:54 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 10:36:54 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 10:36:56 PM [JavaFX Application Thread] ERROR org.LetterRecognition.model.Report - Connection to database is closed!!!
+10-01-2022 -- 10:37:01 PM [JavaFX Application Thread] ERROR org.LetterRecognition.DAO.Database - Connection to database is closed!!!
+10-01-2022 -- 10:37:02 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+10-01-2022 -- 10:37:04 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 10:37:04 PM [main] ERROR org.LetterRecognition.DAO.Database - error:Access denied for user 'c964'@'localhost' (using password: YES)
+10-01-2022 -- 10:37:04 PM [main] ERROR org.LetterRecognition.DAO.Database - Connection to database is closed!!! Default settings will be used. Setting will not be able to save.
+10-01-2022 -- 10:37:04 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 10:37:04 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 10:37:05 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 10:37:05 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 10:37:05 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 10:37:05 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 10:37:05 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 10:37:05 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 10:37:05 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 10:37:05 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 10:37:10 PM [JavaFX Application Thread] ERROR org.LetterRecognition.DAO.Database - Connection to database is closed!!!
+10-01-2022 -- 10:37:12 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+10-01-2022 -- 10:39:20 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 10:39:20 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 10:39:20 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 10:39:20 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 10:39:20 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 10:39:20 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 10:39:20 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 10:39:20 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 10:39:20 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 10:39:20 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 10:39:20 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 10:39:21 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 10:39:30 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+10-01-2022 -- 10:39:32 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 10:39:32 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 10:39:32 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 10:39:32 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 10:39:33 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 10:39:33 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 10:39:33 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 10:39:33 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 10:39:33 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 10:39:33 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 10:39:33 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 10:39:33 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 10:39:45 PM [JavaFX Application Thread] INFO  o.L.model.NeuralNetwork - ###### BUILD MODEL
+10-01-2022 -- 10:41:28 PM [JavaFX Application Thread] INFO  o.d.i.r.BaseImageRecordReader - ImageRecordReader: 52 label classes inferred using label generator ParentPathLabelGenerator
+10-01-2022 -- 10:41:55 PM [JavaFX Application Thread] DEBUG o.n.l.dataset.AsyncDataSetIterator - Manually destroying ADSI workspace
+10-01-2022 -- 10:42:25 PM [JavaFX Application Thread] INFO  o.L.model.NeuralNetwork - ###### SAVE MODEL
+10-01-2022 -- 10:44:46 PM [JavaFX Application Thread] INFO  o.L.model.NeuralNetwork - ###### TRAIN MODEL
+10-01-2022 -- 11:35:47 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+10-01-2022 -- 11:36:38 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 11:36:38 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 11:36:38 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 11:36:38 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 11:36:39 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 11:36:39 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 11:36:39 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 11:36:39 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 11:36:39 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 11:36:39 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 11:36:39 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 11:36:39 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-01-2022 -- 11:36:46 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+10-01-2022 -- 11:38:05 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-01-2022 -- 11:38:06 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-01-2022 -- 11:38:06 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-01-2022 -- 11:38:06 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-01-2022 -- 11:38:06 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-01-2022 -- 11:38:06 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-01-2022 -- 11:38:07 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-01-2022 -- 11:38:07 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-01-2022 -- 11:38:07 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-01-2022 -- 11:38:07 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-01-2022 -- 11:38:07 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-01-2022 -- 11:38:07 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-02-2022 -- 12:25:54 AM [main] INFO  org.LetterRecognition.Main - Application Start
+10-02-2022 -- 12:25:54 AM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-02-2022 -- 12:25:54 AM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-02-2022 -- 12:25:54 AM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-02-2022 -- 12:25:55 AM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-02-2022 -- 12:25:55 AM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-02-2022 -- 12:25:55 AM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-02-2022 -- 12:25:55 AM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-02-2022 -- 12:25:55 AM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-02-2022 -- 12:25:55 AM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-02-2022 -- 12:25:55 AM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-02-2022 -- 12:25:55 AM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-02-2022 -- 12:25:58 AM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+10-02-2022 -- 12:06:03 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-02-2022 -- 12:06:03 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-02-2022 -- 12:06:03 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-02-2022 -- 12:06:03 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-02-2022 -- 12:06:04 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-02-2022 -- 12:06:04 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-02-2022 -- 12:06:04 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-02-2022 -- 12:06:04 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-02-2022 -- 12:06:04 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-02-2022 -- 12:06:04 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-02-2022 -- 12:06:04 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-02-2022 -- 12:06:04 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-02-2022 -- 01:00:57 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-02-2022 -- 01:00:57 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-02-2022 -- 01:00:57 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-02-2022 -- 01:00:57 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-02-2022 -- 01:00:58 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-02-2022 -- 01:00:58 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-02-2022 -- 01:00:58 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-02-2022 -- 01:00:58 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-02-2022 -- 01:00:58 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-02-2022 -- 01:00:58 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-02-2022 -- 01:00:58 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-02-2022 -- 01:00:58 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-02-2022 -- 01:04:48 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was closed!
+10-02-2022 -- 01:04:48 PM [main] INFO  org.LetterRecognition.Main - Application Stopped
+10-02-2022 -- 01:04:51 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was closed!
+10-02-2022 -- 01:04:51 PM [main] INFO  org.LetterRecognition.Main - Application Stopped
+10-02-2022 -- 01:07:45 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-02-2022 -- 01:07:45 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-02-2022 -- 01:07:45 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-02-2022 -- 01:07:45 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-02-2022 -- 01:07:46 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-02-2022 -- 01:07:46 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-02-2022 -- 01:07:46 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-02-2022 -- 01:07:46 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-02-2022 -- 01:07:46 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-02-2022 -- 01:07:46 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-02-2022 -- 01:07:46 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-02-2022 -- 01:07:46 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+10-02-2022 -- 01:07:57 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+10-02-2022 -- 01:15:10 PM [main] INFO  org.LetterRecognition.Main - Application Start
+10-02-2022 -- 01:15:10 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+10-02-2022 -- 01:15:10 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+10-02-2022 -- 01:15:10 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+10-02-2022 -- 01:15:11 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 1
+10-02-2022 -- 01:15:11 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level Generic x86
+10-02-2022 -- 01:15:11 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 8
+10-02-2022 -- 01:15:11 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Mac OS X]
+10-02-2022 -- 01:15:11 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [2.0GB];
+10-02-2022 -- 01:15:11 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+10-02-2022 -- 01:15:11 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ Clang: "12.0.0 (clang-1200.0.32.29)"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+10-02-2022 -- 01:15:11 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+11-07-2022 -- 05:46:15 PM [main] INFO  org.LetterRecognition.Main - Application Start
+11-07-2022 -- 05:46:16 PM [main] ERROR org.LetterRecognition.DAO.Database - error:Access denied for user 'c964'@'localhost' (using password: YES)
+11-07-2022 -- 05:46:16 PM [main] ERROR org.LetterRecognition.DAO.Database - Connection to database is closed!!! Default settings will be used. Setting will not be able to save.
+11-07-2022 -- 05:46:16 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+11-07-2022 -- 05:46:16 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+11-07-2022 -- 05:46:19 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 6
+11-07-2022 -- 05:46:19 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level AVX/AVX2
+11-07-2022 -- 05:46:19 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 6
+11-07-2022 -- 05:46:19 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Windows 10]
+11-07-2022 -- 05:46:19 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [6]; Memory: [2.0GB];
+11-07-2022 -- 05:46:19 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+11-07-2022 -- 05:46:19 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ GCC: "12.1.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+11-07-2022 -- 05:46:19 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+11-07-2022 -- 05:50:04 PM [main] INFO  org.LetterRecognition.Main - Application Start
+11-07-2022 -- 05:50:04 PM [main] ERROR org.LetterRecognition.DAO.Database - error:Access denied for user 'c964'@'localhost' (using password: YES)
+11-07-2022 -- 05:50:04 PM [main] ERROR org.LetterRecognition.DAO.Database - Connection to database is closed!!! Default settings will be used. Setting will not be able to save.
+11-07-2022 -- 05:50:04 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+11-07-2022 -- 05:50:04 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+11-07-2022 -- 05:50:06 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 6
+11-07-2022 -- 05:50:06 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level AVX/AVX2
+11-07-2022 -- 05:50:06 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 6
+11-07-2022 -- 05:50:06 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Windows 10]
+11-07-2022 -- 05:50:06 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [6]; Memory: [2.0GB];
+11-07-2022 -- 05:50:06 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+11-07-2022 -- 05:50:06 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ GCC: "12.1.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+11-07-2022 -- 05:50:06 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+11-07-2022 -- 05:51:10 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+11-07-2022 -- 05:54:59 PM [main] INFO  org.LetterRecognition.Main - Application Start
+11-07-2022 -- 05:54:59 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+11-07-2022 -- 05:54:59 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+11-07-2022 -- 05:54:59 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+11-07-2022 -- 05:55:00 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 6
+11-07-2022 -- 05:55:00 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level AVX/AVX2
+11-07-2022 -- 05:55:00 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 6
+11-07-2022 -- 05:55:00 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Windows 10]
+11-07-2022 -- 05:55:00 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [6]; Memory: [2.0GB];
+11-07-2022 -- 05:55:00 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+11-07-2022 -- 05:55:00 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ GCC: "12.1.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+11-07-2022 -- 05:55:00 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+11-07-2022 -- 05:55:07 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+11-07-2022 -- 05:55:12 PM [main] INFO  org.LetterRecognition.Main - Application Start
+11-07-2022 -- 05:55:12 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+11-07-2022 -- 05:55:12 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+11-07-2022 -- 05:55:12 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+11-07-2022 -- 05:55:13 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 6
+11-07-2022 -- 05:55:13 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level AVX/AVX2
+11-07-2022 -- 05:55:13 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 6
+11-07-2022 -- 05:55:13 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Windows 10]
+11-07-2022 -- 05:55:13 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [6]; Memory: [2.0GB];
+11-07-2022 -- 05:55:13 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+11-07-2022 -- 05:55:13 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ GCC: "12.1.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+11-07-2022 -- 05:55:13 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+11-07-2022 -- 05:55:18 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
+11-07-2022 -- 06:28:05 PM [main] INFO  org.LetterRecognition.Main - Application Start
+11-07-2022 -- 06:28:06 PM [main] INFO  org.LetterRecognition.DAO.Database - Connection to database was successful!
+11-07-2022 -- 06:28:06 PM [main] INFO  o.L.model.NeuralNetwork - ###### LOAD MODEL
+11-07-2022 -- 06:28:06 PM [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+11-07-2022 -- 06:28:08 PM [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for linear algebra: 6
+11-07-2022 -- 06:28:08 PM [main] INFO  o.n.l.c.nativecpu.CpuNDArrayFactory - Binary level Generic x86 optimization level AVX/AVX2
+11-07-2022 -- 06:28:08 PM [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for OpenMP BLAS: 6
+11-07-2022 -- 06:28:08 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Windows 10]
+11-07-2022 -- 06:28:08 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [6]; Memory: [2.0GB];
+11-07-2022 -- 06:28:08 PM [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+11-07-2022 -- 06:28:08 PM [main] INFO  o.n.linalg.cpu.nativecpu.CpuBackend - Backend build information:
+ GCC: "12.1.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+11-07-2022 -- 06:28:08 PM [main] INFO  o.d.nn.multilayer.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+11-07-2022 -- 06:28:11 PM [JavaFX Application Thread] INFO  o.L.controller.MainMenuController - Application stopped and resources were release via system exit.
